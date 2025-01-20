@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.scss';
-import {Sum} from './components/Sum/Sum'
+import { Sum } from './components/Sum/Sum';
 
-const App = () => {
+export const App = () => {
   return (
     <div>
       <Sum a={2} b={3} />
